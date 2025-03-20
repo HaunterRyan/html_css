@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* :root{
+    --1
+    --2
+    ;
+} */
+
+@charset "utf-8";
+
+:root{
+    --ryan: #37c95b;
+    --ryann: #f81212;
+    --melk: #5bf1e7;
+    --cor: #d4db05;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/*   */
+html{
+    height: 100vh;
+    background-color: aquamarine;
+
+
+
+}
+
+header{
+    background-color: var(--melk);
+    height: 13vh;
+}
+
+
+    

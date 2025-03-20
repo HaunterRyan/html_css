@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+:root {
+    --ryan: #89dbfc;
+    --ryan2: #00ffea;
+    --ryan3: #81c0c0;
+}
+
+/* o que sabemos sobre formatação de texto
+-cor (color:) 
+-tipos de fontes (font-family:) 
+-tamanho da fonte (font-size:) 
+-margem de texto (margin:) 
+-espaçamento (padding:) 
+ */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--ryan);
+}
+
+
+
+
+html{
+    height: 100vh;
+    font-family:  'Courier New', Courier, monospace, monospace;
+    font-size: 20px;
+
+    font-family: cursive;
+}
+
+h1 {
+    text-align: right;
+    padding: 0.9em;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center; 
+    padding: 0.3em;
+    text-transform: uppercase;
+}
+
+
